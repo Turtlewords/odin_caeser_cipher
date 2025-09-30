@@ -5,7 +5,7 @@ def caesar_cipher(str, shift)
       if str[i].match?(/[A-Za-z]/)
         code = str[i].ord
         if str[i] == str[i].upcase
-          limt = 90
+          limit = 90
           lower = 65
         else
           limit = 122
